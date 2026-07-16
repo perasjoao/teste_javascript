@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+body {
+    background-color: aqua;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Faz o corpo ocupar a altura inteira da tela */
+}
+
+#caixa1{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#maisCaro{
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#maisCaro h1{
+    font-size: medium;
+}
