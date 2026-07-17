@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+#caixa_cronometro h2{
+    color: black;
+    font-size: 50px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caixa_cronometro p{
+    padding: 20px;
+    font-size: 40px;
+}
+
+#caixa_cronometro{
+    padding: 30px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+#container_botoes{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
