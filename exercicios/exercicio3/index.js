@@ -3,6 +3,7 @@ function criaP(entrada){
     let p=document.createElement("p");
     p.innerHTML=entrada;
     p.style.margin="10%";
+    p.style.whiteSpace = "nowrap";
     return p;
 }
 
