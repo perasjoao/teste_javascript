@@ -1,0 +1,32 @@
+body{
+    background-color:black;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Garante que o pai tem a altura da tela toda */
+    flex-direction: column;
+}
+
+.estatisticas{
+    margin-right: auto;
+    margin-left: 11%;
+}
+.caixa_cps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 900px;  
+    height: 400px
+    
+}
+
+#conta_cps{
+    background-color:red;
+    width: 700px;  
+    height: 300px
+}
