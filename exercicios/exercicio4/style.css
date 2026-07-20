@@ -10,6 +10,16 @@ body{
     flex-direction: column;
 }
 
+ul{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    flex-direction: column;
+}
+
+
 .estatisticas{
     margin-right: auto;
     margin-left: 11%;
@@ -20,6 +30,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: white;
+    border-radius: 5px;
     width: 900px;  
     height: 400px
     
