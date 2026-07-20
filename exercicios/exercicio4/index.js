@@ -12,7 +12,6 @@ function contaClick(clicks){
 }
 
 function escreveTimer(timer){
-    timer.tempo++;
     text="TIMER: "+(timer.tempo).toFixed(3)+"s";
     let t=document.getElementById("timer");
     t.innerText=text;
@@ -37,7 +36,7 @@ function atualizaCps(flag,clicks,timer){
     escreveHistorico(clicks);
     clicks.clicks=0;
     escreveClick(clicks);
-    timer.tempo=-1;
+    timer.tempo=0;
     escreveTimer(timer);
 }
 
@@ -46,14 +45,19 @@ function timerInit(flag,clicks){
         tempo:0,
         interval:0
     };
+    let tempoInicial=performance.now();
     timer.interval=setInterval(function(){
-        if(timer.tempo==5){
+        let tempoAgora=performance.now();
+        timer.tempo=(tempoAgora-tempoInicial)/1000;
+
+        if(timer.tempo >= 5){
             clearInterval(timer.interval);
             atualizaCps(flag,clicks,timer);
             return;
         }
+
         escreveTimer(timer);
-    },1000);
+    },10)
 
 }
 
