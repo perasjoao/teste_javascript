@@ -25,6 +25,7 @@ ul{
     margin-left: 11%;
 }
 .caixa_cps{
+    user-select: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
