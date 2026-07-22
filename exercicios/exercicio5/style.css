@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#caixa_calculadora{
+    padding: 50;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+}
+
+input{
+  width: 300px;
+}
+
+#digitos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number{
+  width: 100px;
+  height: 30px;
+}
+
+.clear{
+  width: 100px;
+  height: 30px;
+}
