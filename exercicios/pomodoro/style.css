@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#caixa_anotacoes{
+    width: 70%;
+    height: 90%;
+}
+
+#bloco_notas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#notas{
+    width: 90%;
+    height:250px;
+}
