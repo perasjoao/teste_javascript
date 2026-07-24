@@ -53,6 +53,7 @@ class BlocoNotas{
             console.log( "resgatado",historico);
             return historico;
         }
+        return [];
     }
 
 
